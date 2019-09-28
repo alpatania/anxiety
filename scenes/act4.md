@@ -832,11 +832,11 @@ bb({ eyes:"smile" });
 hong({ eyes:"annoyed" });
 ```
 
-h: Dai, sono solo  a vulnerable college-age kid and you're a big, scary wolf. What's the worst that cou--
+h: Dai, sono solo un ragazzo vulnerabile e tu un lupo grande e grosso. Qual e il peggio che p--
 
 `hong({ eyes:"normal", body:"point" });`
 
-h: Actually, do not answer that.
+h: Aspetta, non rispondere.
 
 (#act4_something_else)
 
@@ -852,33 +852,33 @@ _.a4_fears_discussed += 1;
 
 `bb({ eyes:"sad_d" });`
 
-b: I want to make sure you fulfil that deep, human need to belong...
+b: Voglio accertarmi che tu soddisfi i tuoi bisogni umani di appartenenza
 
 `bb({ eyes:"sad_u" });`
 
-b: But I worry that if anyone ever knew us – the *real* us – we'd scare them all away.
+b: Mi preoccupa che se qualcuno ci dovesse conoscere - chi siamo *veramente* - li spaventeremmo.
 
 `bb({ eyes:"sad" });`
 
 {{if _.a4_fears_discussed==1}}
-b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: Non so, ne ho abbastanza di decidere *io* cosa dire. *Tu* cosa hai da dire, umano?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Again, back to you, human. What do you think?
+b: Tocca di nuovo a te, umano. Che ne pensi?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: More thoughts, human?
+b: Altri pensieri, umano?
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[I agree: let's work on our social life.](#act4_alone_skills)
+[Sono d'accordo: lavoriamo sulla nostra vita sociale.](#act4_alone_skills)
 
-[I think people like us. Let's find out?](#act4_alone_experiment)
+[Penso piacciamo alla gente. Proviamo?](#act4_alone_experiment)
 
-[Thank you.](#act4_thanks) `_.thanks_for = "social belonging";`
+[Grazie.](#act4_thanks) `_.thanks_for = "social belonging";`
 
 # act4_alone_skills
 
@@ -888,31 +888,32 @@ hong({ body:"chin" });
 ```
 
 h: We could practice skills like asking questions, listening and empathizing, being open and vulnerable, etc?
+h: Dobbiamo far pratica a porre domande, ascoltare ed empatizzare, ad essere aperti e vulnerabili, etc?
 
 `hong({ eyes:"normal_l" });`
 
-h: Or make better social habits, like scheduling time with friends or regularly going to meetups?
+h: O ad avere delle abitudini sociali migliori, come trovare il tempo per gli amici o per uscire?
 
 `hong({ body:"one_up" });`
 
-h: Could also learn to get more comfortable with rejection.
+h: Potremmo pure imparare ad accettare i rifiuti.
 
 `hong({ eyes:"normal" });`
 
-h: Or learn to know when people *aren't* rejecting us, they're just tired or have Resting ^Bitch^ Face.
+h: O imaparare a riconoscere quando le persone *non* ci stanno rifiutando, ma hanno solo la faccia da ^stronza^.
 
 ```
 hong({ body:"normal" });
 bb({ eyes:"annoyed_r" });
 ```
 
-b: That's a lot of options. But, about "learning social skills"...
+b: Sono tante opzioni. Ma, "imparare competenze sociali"...
 
-[Isn't that *manipulative?*](#act4_alone_skills_manipulative)
+[Non e *manipolatore?*](#act4_alone_skills_manipulative)
 
-[Won't that make us *easier to manipulate?*](#act4_alone_skills_manipulated)
+[Non ci rendera piu *facili da manipolare?*](#act4_alone_skills_manipulated)
 
-[What if we still fail?](#act4_alone_skills_fail)
+[E se falliamo lo stesso?](#act4_alone_skills_fail)
 
 # act4_alone_skills_manipulative
 
@@ -993,11 +994,11 @@ h: So let's fail forward together, yeah?
 
 `bb({ eyes:"normal_r" });`
 
-b: Sure, I guess... worst-case scenario, we can just skip town and get a new identity.
+b: Ok... nel peggiore dei casi, possiamo sempre scappare e cambiare identita.
 
 `bb({ eyes:"normal" });`
 
-h: Yeah I think that only costs two bitcoins these days.
+h: Penso costino solo 2 bitcoins di questi tempi.
 
 (#act4_something_else)
 
@@ -1166,15 +1167,15 @@ b: And don't tell me we're *not* messed up. We almost jumped off a *roof*.
 `bb({ body:"normal", eyes:"sad" })`
 
 {{if _.a4_fears_discussed==1}}
-b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: Non so, ne ho abbastanza di decidere *io* cosa dire. *Tu* cosa hai da dire, umano?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Again, back to you, human. What do you think?
+b: Tocca di nuovo a te, umano. Che ne pensi?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: More thoughts, human?
+b: Altri pensieri, umano?
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
